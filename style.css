@@ -1,0 +1,296 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+#section1{
+	margin-bottom: 0;
+	padding-bottom: 210px;
+	background-image: url('./labImagerapha.jpg');
+	background-repeat: no-repeat;
+	
+}
+
+#header{
+	
+	/*background-position-y: 15.4022px;
+	background-color: rgb(14, 55, 145);
+	z-index: 3;*/
+}
+
+header{
+	padding-top: 20px;
+	margin-left: 10px;
+	margin-right: 50px;
+}
+
+#logonav{
+	
+}
+
+nav{
+	text-align: right;
+	margin-top: 20px;
+}
+
+a{
+	text-transform: uppercase;
+	text-decoration: none;
+	color: #fff;
+	margin-left: 20px;
+	padding: 20px 20px;
+	font-size: 16px;
+	font-family: "Barlow",Arial,Helvetica,sans-serif;
+	font-weight: 400px;
+	
+	
+}
+
+a:hover{
+	color: blue;
+	border-bottom: 3px solid blue;
+	background-color: #e7e3ee;
+	border-radius: 10px;
+	font-weight: bold;
+}
+
+#heading1 {
+	margin-top: 100px;
+	margin-left: 70px;
+}
+
+#heading1 h3{
+	color: #fff;
+	font-family: 'Roboto', sans-serif;
+	text-transform: uppercase;
+	font-weight: 800px;
+	margin-bottom: 5px;
+	padding-bottom: 5px;
+}
+
+#heading1 p{
+	color: #fff;
+	font-size: 4.2em;
+	font-family: 'Roboto', sans-serif;
+	font-weight: lighter;
+	margin-top: 0px;
+	padding-top: 0px;
+	text-transform: capitalize;
+}
+
+.button {
+   
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button1 {
+  background-color: transparent; 
+  color: white; 
+  border: 2px solid white;
+}
+
+.button1:hover {
+  background-color: #008CBA;;
+  color: white;
+}
+
+.button2 {
+  background-color: #e7e3ee; 
+  color: black; 
+  border: 2px solid #008CBA;
+}
+
+.button2:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
+
+
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  box-sizing: border-box;
+}
+#headexp{
+	text-align: center;
+	font-family: 'Roboto', sans-serif;
+}
+
+#section2{
+	background-color: rgb(43, 52, 255, 0.4);
+	padding-top: 50px;
+	margin-top: 0;
+}
+
+
+.container {
+  display: flex;
+  width: auto;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.card {
+  margin: 10px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.6);
+  overflow: hidden;
+  width: 250px;
+  opacity: 0.9;
+  transition: width 6s, opacity 6s, transform 4s;
+}
+
+.card:hover{
+  margin: 12px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.9);
+  width: 255px;
+  opacity: 1.0;
+  transform: scale(1.1);
+}
+.card-header img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+
+
+
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  min-height: 250px;
+}
+
+.tag {
+  background: #cccccc;
+  border-radius: 50px;
+  font-size: 12px;
+  margin: 0;
+  color: #fff;
+  padding: 2px 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+.tag-teal {
+  background-color: #47bcd4;
+}
+.tag-purple {
+  background-color: #5e76bf;
+}
+.tag-pink {
+  background-color: #cd5b9f;
+}
+
+.card-body p {
+  font-size: 13px;
+  margin: 0 0 40px;
+}
+.user {
+  display: flex;
+  margin-top: auto;
+}
+
+.user img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.user-info h5 {
+  margin: 0;
+}
+.user-info small {
+  color: #545d7a;
+}
+
+#headexp{
+	color: #fff;
+	font-size: 2.5em;
+	text-transform: capitalize;
+	padding-bottom: 50px;
+}
+
+
+.spanexp::before, .spanexp::after {
+  content: "___________________________________________________________";
+  color: #fff;
+  
+  font-weight: bold;
+}
+
+.openhrs{
+	margin-top: 100px;
+	margin-bottom: 120px;
+}
+
+h3.spanexp{
+	color: #fff;
+	
+}
+
+ul li{
+	color: #fff;
+	list-style: none;
+}
+
+li h4{
+	text-align: center;
+}
+
+.timelist{
+	display: flex;
+  width: auto;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding-top: 30px;
+}
+
+.aboutleft{
+	background: gray;
+	padding-right: 100px;
+}
+
+.flex-container{
+  display: flex;
+  align-items: stretch;
+  background-color: #f1f1f1;
+}
+
+.flex-container > div{
+  background-color: #000080;
+  color: white;
+  text-align: center;
+  width: 700px;
+  height: 400px;
+  padding-right: 40px;
+  border-radius: 20%;
+ 
+}
+
+.aboutleft{
+	background-image: url('./haematology.jpg');
+	background-repeat: no-repeat;
+}
+
+.abtimage{
+	background-image: url('./aboutImage.jpg');
+	background-repeat: no-repeat;
+}
+
